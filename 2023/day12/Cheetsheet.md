@@ -1,5 +1,7 @@
-# All Linux Commands
-## System administration:
+# All  Linux & Git-GitHub Commands
+
+## **All About Linux**
+### System administration:
 
 - `uptime`: Shows how long the system has been running and the number of users currently logged in
 - ```free```: Shows the amount of free and used memory in the system
@@ -19,7 +21,7 @@
 - ```passwd```: Changes a user's password
 - ```crontab```: Schedules commands to be executed automatically
 
-## Networking:
+### Networking:
 
 - ```ping```: Tests the reachability of a host
 - ```traceroute```: Shows the route packets take to a host
@@ -29,7 +31,7 @@
 - ```scp```: Copies files over a secure shell connection
 - ```ftp```: Opens an ftp connection to a host
 
-## File management:
+### File management:
 
 - ```ls```: Lists the files and directories in the current directory
 - ```cd```: Changes the current working directory
@@ -54,14 +56,16 @@
 - ```locate```: Finds files by name
 - ```which```: Shows the path of a command
 
-## Process management
+### Process management
 - ```ps```: Shows the running processes
 - ```kill```: Sends a signal to a process to terminate it
 - ```top```: Shows the running processes and their resource usage
 - ```htop```: Interactive process viewer
 - ```nohup```: Run a command immune to hangups, with output to a non-tty
 
-## Repository management:
+## **All About Git-GitHub**
+
+### Repository management:
 
 - ```git init```: Initializes a new Git repository
 - ```git clone```: Copies an existing repository from a remote location
@@ -71,7 +75,7 @@
 - ```git remote rename```: Renames a remote repository
 - ```git remote set-url```: Changes the URL of a remote repository
 - ```git remote -v```: Shows the remote repository and its URL
-## Branching:
+### Branching:
 
 - ```git branch```: Shows the branches in the repository and indicates the current branch
 - ```git branch -a```: Shows all branches, including remote branches
@@ -85,7 +89,7 @@
 - ```git switch [branch name] ```: Create a new branch and switch to it
 - ```git merge [branch name] ```: Merges changes from the branch with the given name into the current branch
 - ```git rebase [branch name] ```: Reapplies commits from the current branch on top of the branch with the given name
-## Committing:
+### Committing:
 
 - ```git status```: Shows the status of the repository
 - ```git add [file name]```: Adds the file with the given name to the staging area
@@ -97,13 +101,13 @@
 - ```git commit -a -m "[message]" ```: commit directly without staging the changes
 - ```git log```: Shows the commit history
 - ```git diff```: Shows the differences between the working directory and the last commit
-## Reverting:
+### Reverting:
 
 - ```git reset [commit hash]```: Reverts the repository to the state of the commit with the given hash
 - ```git reset --hard [commit hash]```: Reverts the repository to the state of the commit with the given hash and discards all changes since that commit
 - ```git revert [commit hash]```: Creates a new commit that undoes the changes made in the commit with the given hash
 
-## Synchronizing:
+### Synchronizing:
 
 - ```git fetch [remote name]```: Downloads new commits from the remote repository with the given name
 - ```git pull [remote name] [branch name]```: Fetches and merges changes from the remote repository with the given name and the branch with the given name into the current branch
@@ -116,7 +120,7 @@
 - ```git pull --rebase -X theirs``` : This will resolve merge conflicts by taking the version of the file from the remote repository
 - ```git pul --rebase -X ours``` : This will resolve merge conflicts by keeping the version of the file you have locally
 
-## Stashing:
+### Stashing:
 
 - ```git stash```: Temporarily saves changes that are not ready to be committed
 - ```git stash list```: Shows the list of stashes
