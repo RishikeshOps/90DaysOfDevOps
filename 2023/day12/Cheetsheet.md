@@ -1,7 +1,7 @@
 # All Linux Commands
 ## System administration:
 
-- ```uptime```: Shows how long the system has been running and the number of users currently logged in
+- `uptime`: Shows how long the system has been running and the number of users currently logged in
 - ```free```: Shows the amount of free and used memory in the system
 - ```top```: Shows the running processes and their resource usage
 - ```ps```: Shows the running processes
@@ -102,3 +102,24 @@
 - ```git reset [commit hash]```: Reverts the repository to the state of the commit with the given hash
 - ```git reset --hard [commit hash]```: Reverts the repository to the state of the commit with the given hash and discards all changes since that commit
 - ```git revert [commit hash]```: Creates a new commit that undoes the changes made in the commit with the given hash
+
+## Synchronizing:
+
+- ```git fetch [remote name]```: Downloads new commits from the remote repository with the given name
+- ```git pull [remote name] [branch name]```: Fetches and merges changes from the remote repository with the given name and the branch with the given name into the current branch
+- ```git push [remote name] [branch name]```: Uploads commits to the remote repository with the given name and the branch with the given name
+- ```git push -f [remote name] [branch name] ```: force push the commits to the remote repository with the given name and the branch with the given name
+- ```git push [remote name] --all```: Uploads all branches to the remote repository with the given name
+- ```git push [remote name] --tags```: Uploads all tags to the remote repository with the given name
+- ```git remote prune [remote name]```: Remove branches that were deleted on the remote
+- ```git pull --rebase```: This will integrate changes from a remote repository by reapplying your local commits on top of the updated remote head. This will avoid creating unnecessary merge commits
+- ```git pull --rebase -X theirs``` : This will resolve merge conflicts by taking the version of the file from the remote repository
+- ```git pul --rebase -X ours``` : This will resolve merge conflicts by keeping the version of the file you have locally
+
+## Stashing:
+
+- ```git stash```: Temporarily saves changes that are not ready to be committed
+- ```git stash list```: Shows the list of stashes
+- ```git stash apply [stash name]```: Applies changes from the stash with the given name
+- ```git stash drop [stash name]```: Deletes the stash with the given name
+- ```git stash pop [stash name] ```: Applies changes from the stash with
