@@ -61,3 +61,44 @@
 - ```htop```: Interactive process viewer
 - ```nohup```: Run a command immune to hangups, with output to a non-tty
 
+## Repository management:
+
+- ```git init```: Initializes a new Git repository
+- ```git clone```: Copies an existing repository from a remote location
+- ```git remote```: Shows the remote repository
+- ```git remote add```: Adds a new remote repository
+- ```git remote remove```: Removes a remote repository
+- ```git remote rename```: Renames a remote repository
+- ```git remote set-url```: Changes the URL of a remote repository
+- ```git remote -v```: Shows the remote repository and its URL
+## Branching:
+
+- ```git branch```: Shows the branches in the repository and indicates the current branch
+- ```git branch -a```: Shows all branches, including remote branches
+- ```git branch -r```: Shows only remote branches
+- ```git branch -v```: Shows the last commit on each branch
+- ```git branch [branch name]```: Creates a new branch with the given name
+- ```git branch -d [branch name]```: Deletes the branch with the given name
+- ```git branch -D [branch name]```: Force deletes the branch with the given name
+- ```git checkout [branch name]```: Switches to the branch with the given name
+- ```git checkout -b [branch name]```: Creates a new branch with the given name and switch to it
+- ```git switch [branch name] ```: Create a new branch and switch to it
+- ```git merge [branch name] ```: Merges changes from the branch with the given name into the current branch
+- ```git rebase [branch name] ```: Reapplies commits from the current branch on top of the branch with the given name
+## Committing:
+
+- ```git status```: Shows the status of the repository
+- ```git add [file name]```: Adds the file with the given name to the staging area
+- ```git add .```: Adds all changes in the current directory to the staging area
+- ```git reset [file name]```: Removes the file with the given name from the staging area
+- ```git commit -m "[message]"```: Creates a new commit with the changes in the staging area and the given message
+- ```git commit --amend -m "[message]" ```: amends the last commit with the changes in the staging area and the given message
+- ```git commit --amend --no-edit``` : amends the last commit with the changes in the staging area and keep the same commit message
+- ```git commit -a -m "[message]" ```: commit directly without staging the changes
+- ```git log```: Shows the commit history
+- ```git diff```: Shows the differences between the working directory and the last commit
+## Reverting:
+
+- ```git reset [commit hash]```: Reverts the repository to the state of the commit with the given hash
+- ```git reset --hard [commit hash]```: Reverts the repository to the state of the commit with the given hash and discards all changes since that commit
+- ```git revert [commit hash]```: Creates a new commit that undoes the changes made in the commit with the given hash
