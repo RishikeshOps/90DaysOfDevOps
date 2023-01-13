@@ -1,6 +1,6 @@
 # All  Linux & Git-GitHub Commands
 
-If you want to download all Git command [click_here](https://github.com/RishikeshOps/90DaysOfDevOps/blob/43a29c7b9f747cecfa3d718258058e9341d4bce2/2023/day12/Git%20CheetSheet_1.pdf)
+If you want to download all Git command [click_here](https://github.com/RishikeshOps/90DaysOfDevOps/blob/43a29c7b9f747cecfa3d718258058e9341d4bce2/2023/day12/Git%20CheetSheet_1.pdf) or Shoot Me an [Email](mailto:rishikeshmashidkar@gmail.com) I will send you the Original Word File.
 
 
 ## **All About Linux**
