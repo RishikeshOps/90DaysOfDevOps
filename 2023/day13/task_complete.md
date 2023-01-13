@@ -21,3 +21,6 @@ is_student = True
 In Python, the data type of a variable is determined automatically based on the value that is assigned to it. For example, the variable x above is of type int (integer) because it stores the value 5, and the variable name is of type str (string) because it stores the value "John".
 
 It's worth mentioning that Python is a dynamically typed language, which means that we don't have to explicitly specify the data type of a variable, the interpreter will automatically identify the type of the variable based on the value assigned to it.
+
+
+# Installed python my system & run the very first program ![Watch_here](https://github.com/RishikeshOps/90DaysOfDevOps/blob/f96270a47ceb2350f96b5d3a9b987b9786747f08/2023/day13/Screenshot_20230113_210801.png)
