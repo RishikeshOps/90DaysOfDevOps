@@ -1,4 +1,3 @@
----
 services:
   debug: 'on'
   aws:
